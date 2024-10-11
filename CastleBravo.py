@@ -4,6 +4,9 @@ import time  # Import the time module to use sleep function for delays
 # Print a welcome message
 print("\nWelcome to InfoTechCenter V1.0\n")
 
+timeToSleep = 3 #variable to set the time library to 3 seconds when called
+time.sleep(timeToSleep) # Calling the time to sleep library with the variable timeToSleep's value
+
 # Initialize variables
 x = 0  # Counter for the booting process
 ellipsis = 0  # Variable to track the number of dots in the message
