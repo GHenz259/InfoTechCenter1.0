@@ -1,4 +1,4 @@
-
+print("\n*********************************\n")
 
 # This line prints the title of the program.
 print("Weather Branch\n")
