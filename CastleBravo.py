@@ -1,5 +1,6 @@
 import sys  # Import the sys module for system-specific parameters and functions
 import time  # Import the time module to use sleep function for delays
+# Import necessary libraries: random for selecting weather conditions, sleep for adding delays in the program.
 import random
 from time import sleep
 
@@ -33,10 +34,6 @@ print("\n******************************************************\n")
 
 # This line prints the title of the program.
 print("Weather Branch\n")
-
-# Import necessary libraries: random for selecting weather conditions, sleep for adding delays in the program.
-import random
-from time import sleep
 
 
 # This function randomly selects a weather condition from the list of possible forecasts.
