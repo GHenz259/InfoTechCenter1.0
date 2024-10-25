@@ -1,5 +1,7 @@
 import sys  # Import the sys module for system-specific parameters and functions
 import time  # Import the time module to use sleep function for delays
+import random
+from time import sleep
 
 # Print a welcome message
 print("\nWelcome to InfoTechCenter V1.0\n")
@@ -82,8 +84,7 @@ def vehicleResponseSystem():
 # Call the function to run the VRS system based on the weather.
 vehicleResponseSystem()
 
-import random
-from time import sleep
+
 
 # Print a decorative separator for the output
 print("\n******************************************************\n")
